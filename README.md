@@ -1,6 +1,8 @@
 # Shipping Cost Calculation API
-
 This project is an Express.js backend API for calculating shipping costs. It connects to a PostgreSQL database containing city and province information and provides several endpoints to fetch data and calculate shipping costs.
+
+## Deployment Link
+https://iai-ongkir-be.vercel.app
 
 ## Installation
 
