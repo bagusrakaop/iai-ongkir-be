@@ -4,10 +4,12 @@ const cityRoutes = require('./routes/cityRoutes');
 const provinceRoutes = require('./routes/provinceRoutes');
 const shippingRoutes = require('./routes/shippingRoutes');
 const courierRoutes = require('./routes/courierRoutes'); 
+const cors = require("cors");
 
 const app = express();
 const port = process.env.PORT || 3000;
 
+app.use(cors());
 app.use(bodyParser.json());
 app.use('/api', cityRoutes);
 app.use('/api', provinceRoutes);
